@@ -231,4 +231,4 @@ def set_cached_version(version):
         return f.write(version + "\n")
 
 if __name__ == "__main__":
-    print(get_version())
+    print((get_version()))

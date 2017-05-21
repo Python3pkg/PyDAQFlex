@@ -2,7 +2,7 @@
 # coding=utf-8
 
 from setuptools import setup
-from gitversion import get_version
+from .gitversion import get_version
 
 setup(
     name='pydaqflex',
